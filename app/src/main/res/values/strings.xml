@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VoiceHelp</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

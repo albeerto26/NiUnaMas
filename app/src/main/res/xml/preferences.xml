@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="keyphrase"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Se activará la grabación de voz al detectar esta frase"
+        android:title="Frase de alerta" />
+    <PreferenceCategory android:title="Llamada de emergencia">
+
+    </PreferenceCategory>
+    <EditTextPreference
+        android:key="emergencyPhone"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Teléfono que recibirá la llamada de emergencia"
+        android:title="Teléfono" />
+</PreferenceScreen>
